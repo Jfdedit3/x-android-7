@@ -1,0 +1,17 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.jfdedit3.xandroid7"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.jfdedit3.xandroid7"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
