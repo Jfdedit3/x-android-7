@@ -11,9 +11,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://maven.mozilla.org/maven2/"
+        }
     }
 }
 
 rootProject.name = "X Android 7"
 include ":app"
-
